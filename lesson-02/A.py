@@ -15,3 +15,4 @@ class C(B,A):
 
 arddr = C
 arddr.say(arddr)
+
