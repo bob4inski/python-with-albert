@@ -22,8 +22,9 @@ class Mashine:
 
 class Washing_mashine(Mashine, Washing):
     def __init__(self, brand, price, year, color, water):
-        super().__init__(brand, price, year, color)
-        self.water = water
+        Mashine.__init__(self, brand, price, year, color)
+        Washing.__init__(self, water)
+        
 
 
 class Driving_Mashine(Mashine, Driving):
