@@ -11,8 +11,6 @@ class Cars:
 def get_speed(car):
     return car.speed
 
-
-
 class Race:
     lenght_of_lap = 5  # km
 
