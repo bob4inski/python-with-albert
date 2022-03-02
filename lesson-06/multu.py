@@ -12,3 +12,5 @@ def rabotai(spisok:list,a,b):
 
 ars = ['ad.txt','ad1.txt','ad2.txt','ad3.txt','ad4.txt']
 rabotai(ars,'cat','dog')
+
+
