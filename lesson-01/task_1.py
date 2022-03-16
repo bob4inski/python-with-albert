@@ -7,7 +7,7 @@ nums = [1,2,3]
 # из 10ти символов первый эл-т из списка, а остально '!'
 # в правой остальное '?'
 a = 10
-print('first:{0[0]:!<10d}  second:{0[1]:?>10}'.format(nums))
+print('first:{0[0]:!<10}  second:{0[1]:?>10}'.format(nums))
 
 print('int: {0:d} hex: {0:x} oct: {0:o}'.format(40))
 
