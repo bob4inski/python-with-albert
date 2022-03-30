@@ -12,7 +12,7 @@ def arr(*args):
 
 
     pt.show()
-#arr(([1,2,3,4],[2,3,4,5]),([0,1,1,1],[2,3,4,5]),['red','green'])
+arr(([1,2,3,4],[2,3,4,5]),([0,1,1,1],[2,3,4,5]),['red','green'])
 
 def question():
     count = int(input('Скока'))
@@ -26,9 +26,9 @@ def question():
 def arrsen(x,y,colors,title = '',xlabel = '',ylable = ''):
 
     if xlabel:
-        pt.xlabel= xlabel
+        pt.xlabel= 'rt'
     if ylable:
-        pt.ylabel = ylable
+        pt.ylabel = 'tt'
     if title:
         pt.title = title
 
@@ -49,7 +49,7 @@ def draw(*args):
     pt.pie(piecew, colors = colorss,startangle=90,autopct='%1.2f%%')
     pt.legend(labelss)
     pt.show()
-draw([10,'baran','red'],[10,'ban','green'])
+#draw([10,'baran','red'],[10,'ban','green'])
 
 
 
